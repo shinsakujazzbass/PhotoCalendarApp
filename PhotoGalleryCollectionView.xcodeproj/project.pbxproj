@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2138E012053959B00B9B650 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2138E002053959B00B9B650 /* images.xcassets */; };
 		E236F48C1FCB2D430021A7DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E236F48B1FCB2D430021A7DF /* AppDelegate.swift */; };
 		E236F48E1FCB2D430021A7DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E236F48D1FCB2D430021A7DF /* ViewController.swift */; };
 		E236F4911FCB2D430021A7DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E236F48F1FCB2D430021A7DF /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		E236F4961FCB2D440021A7DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E236F4941FCB2D440021A7DF /* LaunchScreen.storyboard */; };
 		E236F4A11FCB2D440021A7DF /* PhotoGalleryCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E236F4A01FCB2D440021A7DF /* PhotoGalleryCollectionViewTests.swift */; };
 		E236F4AC1FCB2D440021A7DF /* PhotoGalleryCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E236F4AB1FCB2D440021A7DF /* PhotoGalleryCollectionViewUITests.swift */; };
+		E236F4BA1FCB473D0021A7DF /* ColViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E236F4B91FCB473D0021A7DF /* ColViewCell.swift */; };
+		E25DCAF8204EDD4000F18AE9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E25DCAED204EDD4000F18AE9 /* FMDatabase.m */; };
+		E25DCAF9204EDD4000F18AE9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E25DCAEF204EDD4000F18AE9 /* FMDatabaseAdditions.m */; };
+		E25DCAFA204EDD4000F18AE9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E25DCAF1204EDD4000F18AE9 /* FMDatabasePool.m */; };
+		E25DCAFB204EDD4000F18AE9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E25DCAF3204EDD4000F18AE9 /* FMDatabaseQueue.m */; };
+		E25DCAFC204EDD4000F18AE9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E25DCAF6204EDD4000F18AE9 /* FMResultSet.m */; };
+		E25DCAFD204EDD4000F18AE9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E25DCAF7204EDD4000F18AE9 /* Info.plist */; };
+		E2DF70FA204ED8EA0014E6FE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DF70F9204ED8EA0014E6FE /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2138E002053959B00B9B650 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		E236F4881FCB2D430021A7DF /* PhotoGalleryCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGalleryCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E236F48B1FCB2D430021A7DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E236F48D1FCB2D430021A7DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,21 @@
 		E236F4A71FCB2D440021A7DF /* PhotoGalleryCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoGalleryCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E236F4AB1FCB2D440021A7DF /* PhotoGalleryCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryCollectionViewUITests.swift; sourceTree = "<group>"; };
 		E236F4AD1FCB2D440021A7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E236F4B91FCB473D0021A7DF /* ColViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColViewCell.swift; sourceTree = "<group>"; };
+		E25DCAEC204EDD4000F18AE9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E25DCAED204EDD4000F18AE9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E25DCAEE204EDD4000F18AE9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E25DCAEF204EDD4000F18AE9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E25DCAF0204EDD4000F18AE9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E25DCAF1204EDD4000F18AE9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E25DCAF2204EDD4000F18AE9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E25DCAF3204EDD4000F18AE9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E25DCAF4204EDD4000F18AE9 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		E25DCAF5204EDD4000F18AE9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E25DCAF6204EDD4000F18AE9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		E25DCAF7204EDD4000F18AE9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DF70F9204ED8EA0014E6FE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		E2DF70FB204ED9A20014E6FE /* PhotoGalleryCollectionView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoGalleryCollectionView-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DF70FA204ED8EA0014E6FE /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +103,7 @@
 		E236F47F1FCB2D430021A7DF = {
 			isa = PBXGroup;
 			children = (
+				E2DF70F9204ED8EA0014E6FE /* libsqlite3.dylib */,
 				E236F48A1FCB2D430021A7DF /* PhotoGalleryCollectionView */,
 				E236F49F1FCB2D440021A7DF /* PhotoGalleryCollectionViewTests */,
 				E236F4AA1FCB2D440021A7DF /* PhotoGalleryCollectionViewUITests */,
@@ -97,10 +124,14 @@
 		E236F48A1FCB2D430021A7DF /* PhotoGalleryCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				E25DCAEB204EDD4000F18AE9 /* fmdb */,
 				E236F48B1FCB2D430021A7DF /* AppDelegate.swift */,
 				E236F48D1FCB2D430021A7DF /* ViewController.swift */,
 				E236F48F1FCB2D430021A7DF /* Main.storyboard */,
+				E2DF70FB204ED9A20014E6FE /* PhotoGalleryCollectionView-Bridging-Header.h */,
+				E236F4B91FCB473D0021A7DF /* ColViewCell.swift */,
 				E236F4921FCB2D440021A7DF /* Assets.xcassets */,
+				E2138E002053959B00B9B650 /* images.xcassets */,
 				E236F4941FCB2D440021A7DF /* LaunchScreen.storyboard */,
 				E236F4971FCB2D440021A7DF /* Info.plist */,
 			);
@@ -123,6 +154,25 @@
 				E236F4AD1FCB2D440021A7DF /* Info.plist */,
 			);
 			path = PhotoGalleryCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		E25DCAEB204EDD4000F18AE9 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				E25DCAEC204EDD4000F18AE9 /* FMDatabase.h */,
+				E25DCAED204EDD4000F18AE9 /* FMDatabase.m */,
+				E25DCAEE204EDD4000F18AE9 /* FMDatabaseAdditions.h */,
+				E25DCAEF204EDD4000F18AE9 /* FMDatabaseAdditions.m */,
+				E25DCAF0204EDD4000F18AE9 /* FMDatabasePool.h */,
+				E25DCAF1204EDD4000F18AE9 /* FMDatabasePool.m */,
+				E25DCAF2204EDD4000F18AE9 /* FMDatabaseQueue.h */,
+				E25DCAF3204EDD4000F18AE9 /* FMDatabaseQueue.m */,
+				E25DCAF4204EDD4000F18AE9 /* FMDB.h */,
+				E25DCAF5204EDD4000F18AE9 /* FMResultSet.h */,
+				E25DCAF6204EDD4000F18AE9 /* FMResultSet.m */,
+				E25DCAF7204EDD4000F18AE9 /* Info.plist */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +243,7 @@
 				TargetAttributes = {
 					E236F4871FCB2D430021A7DF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MYPKCM8NU2;
 					};
 					E236F49B1FCB2D440021A7DF = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,9 +280,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25DCAFD204EDD4000F18AE9 /* Info.plist in Resources */,
 				E236F4961FCB2D440021A7DF /* LaunchScreen.storyboard in Resources */,
 				E236F4931FCB2D440021A7DF /* Assets.xcassets in Resources */,
 				E236F4911FCB2D430021A7DF /* Main.storyboard in Resources */,
+				E2138E012053959B00B9B650 /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E236F48E1FCB2D430021A7DF /* ViewController.swift in Sources */,
+				E25DCAFA204EDD4000F18AE9 /* FMDatabasePool.m in Sources */,
+				E236F4BA1FCB473D0021A7DF /* ColViewCell.swift in Sources */,
+				E25DCAFB204EDD4000F18AE9 /* FMDatabaseQueue.m in Sources */,
 				E236F48C1FCB2D430021A7DF /* AppDelegate.swift in Sources */,
+				E25DCAF8204EDD4000F18AE9 /* FMDatabase.m in Sources */,
+				E25DCAFC204EDD4000F18AE9 /* FMResultSet.m in Sources */,
+				E25DCAF9204EDD4000F18AE9 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +458,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PhotoGalleryCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = club.animalnote.PhotoGalleryCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoGalleryCollectionView/PhotoGalleryCollectionView-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -410,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PhotoGalleryCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = club.animalnote.PhotoGalleryCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoGalleryCollectionView/PhotoGalleryCollectionView-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +547,7 @@
 				E236F4B21FCB2D440021A7DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E236F4B31FCB2D440021A7DF /* Build configuration list for PBXNativeTarget "PhotoGalleryCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +556,7 @@
 				E236F4B51FCB2D440021A7DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E236F4B61FCB2D440021A7DF /* Build configuration list for PBXNativeTarget "PhotoGalleryCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +565,7 @@
 				E236F4B81FCB2D440021A7DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
